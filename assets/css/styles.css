@@ -46,17 +46,7 @@ body{
     background: none;
 }
 
-figcaption{
-    border: none;
-    background-color: none;
-    font-size: 0.8em;
-    margin: 0px;
-    padding: 0px 0px 0px 10px;
-    width: auto;
-    height: auto;
-    /*position: relative;
-    left: 10px;*/
-}
+
 
 
 /* POSITION DU LOGO */
@@ -624,11 +614,12 @@ ul{
     height: 100%;
     background: white;
     display: flex;
+    flex-direction: row;
 }
 
 /* 4. Dimension de l'image */
 .image-populaire{
-    border: none;
+    border: 5px dotted peachpuff;
     border-radius: 20px 0px 0px 20px;
     width: 150px;
     height: 130px;
@@ -640,7 +631,7 @@ ul{
 
 /* 5. Encadrer les titres de l'image */
 .titre-populaire{
-    border: none;
+    border: 1px solid green;
     width: 100%;
     height: auto;
     padding: 0px 0px 5px 0px;
@@ -648,13 +639,31 @@ ul{
     font-weight: bold;
 }
 .prix-populaire{
-    border: none;
+    border: 1px solid green;
     width: 100%;
     height: auto;
     padding: 0px;
     margin: 10px 0px 20px 0px;
 }
 /* Pour les STAR voir dans la section 1 avec les hebergements */
+
+
+/* figcaption : les plus populaires */
+.container-texte-populaire{
+    border: none;
+    background-color: none;
+    font-size: 0.8em;
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    width: auto;
+    height: auto;
+}
+
+/* Container pour le lien <a> : les plus populaires */
+.container-lien-populaire{
+    display: flex;
+}
+
 
 
 
