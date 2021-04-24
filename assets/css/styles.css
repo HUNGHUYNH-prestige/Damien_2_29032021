@@ -619,7 +619,7 @@ ul{
 
 /* 4. Dimension de l'image */
 .image-populaire{
-    border: 5px dotted peachpuff;
+    border: none;
     border-radius: 20px 0px 0px 20px;
     width: 150px;
     height: 130px;
@@ -631,7 +631,7 @@ ul{
 
 /* 5. Encadrer les titres de l'image */
 .titre-populaire{
-    border: 1px solid green;
+    border: none;
     width: 100%;
     height: auto;
     padding: 0px 0px 5px 0px;
@@ -639,7 +639,7 @@ ul{
     font-weight: bold;
 }
 .prix-populaire{
-    border: 1px solid green;
+    border: none;
     width: 100%;
     height: auto;
     padding: 0px;
