@@ -662,6 +662,9 @@ ul{
 /* Container pour le lien <a> : les plus populaires */
 .container-lien-populaire{
     display: flex;
+    border: none;
+    width: 100%;
+    height: auto;
 }
 
 
